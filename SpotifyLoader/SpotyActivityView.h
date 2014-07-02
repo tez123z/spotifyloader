@@ -10,7 +10,7 @@
 
 @interface SpotyActivityView : UIView
 @property (atomic,assign) BOOL hidesWhenAnimationStops;
-- (id)initWithFrame:(CGRect)frame andStyle:(NSString*)styleString;
+-(id)initWithFrame:(CGRect)frame andStyle:(NSString*)styleString;
 -(void)startAnimating;
 -(void)stopAnimating;
 -(BOOL)isAnimating;
