@@ -22,6 +22,7 @@
 		A81FE57C19646261009132D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81FE55B19646261009132D2 /* UIKit.framework */; };
 		A81FE58419646261009132D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A81FE58219646261009132D2 /* InfoPlist.strings */; };
 		A81FE58619646261009132D2 /* SpotifyLoaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A81FE58519646261009132D2 /* SpotifyLoaderTests.m */; };
+		A81FE591196462C6009132D2 /* SpotyActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A81FE590196462C6009132D2 /* SpotyActivityView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		A81FE58119646261009132D2 /* SpotifyLoaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpotifyLoaderTests-Info.plist"; sourceTree = "<group>"; };
 		A81FE58319646261009132D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A81FE58519646261009132D2 /* SpotifyLoaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotifyLoaderTests.m; sourceTree = "<group>"; };
+		A81FE58F196462C6009132D2 /* SpotyActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpotyActivityView.h; sourceTree = "<group>"; };
+		A81FE590196462C6009132D2 /* SpotyActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpotyActivityView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 		A81FE55D19646261009132D2 /* SpotifyLoader */ = {
 			isa = PBXGroup;
 			children = (
+				A81FE58F196462C6009132D2 /* SpotyActivityView.h */,
+				A81FE590196462C6009132D2 /* SpotyActivityView.m */,
 				A81FE56619646261009132D2 /* spotifyloaderAppDelegate.h */,
 				A81FE56719646261009132D2 /* spotifyloaderAppDelegate.m */,
 				A81FE56919646261009132D2 /* Main_iPhone.storyboard */,
@@ -255,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A81FE56819646261009132D2 /* spotifyloaderAppDelegate.m in Sources */,
+				A81FE591196462C6009132D2 /* SpotyActivityView.m in Sources */,
 				A81FE56419646261009132D2 /* main.m in Sources */,
 				A81FE57119646261009132D2 /* spotifyloaderViewController.m in Sources */,
 			);
