@@ -4,7 +4,8 @@ spotifyloader
 A Spotify-Like UIView Loader for iOS
 Built much like UIActivityIndicatorView
 
-Installion Download SpotyActivityView.h and SpotyActivityView.m and include in your project file (Requires ARC enabled)
+Installion 
+ Download SpotyActivityView.h and SpotyActivityView.m and include in your project file (Requires ARC enabled)
 
 Usage:
 
